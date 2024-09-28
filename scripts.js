@@ -38,20 +38,6 @@ document.getElementById('toggleServices').addEventListener('click', function () 
         servicesList.style.display = 'none';
     }
 });
-window.onload = function () {
-    const currentTime = new Date().getHours();
-    let message;
-
-    if (currentTime >=9 && currentTime <= 12) {
-        message = 'صباح الخير!';
-    } else if (currentTime < 18) {
-        message = 'مساء الخير!';
-    } else {
-        message = 'المحل مغلق!';
-    }
-
-    alert(message + ' مرحبًا بك في موقعنا.');
-};
 function searchWord(event) {
     event.preventDefault(); // منع إعادة تحميل الصفحة عند الضغط على الزر
 
@@ -84,3 +70,4 @@ function searchWord(event) {
         alert("لم يتم العثور على الكلمة المطلوبة.");
     }
 }
+
