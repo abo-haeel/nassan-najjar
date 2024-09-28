@@ -7,9 +7,9 @@ body {
 .classimg{
     padding-left: 30px;
 }
-#myhed{
+/* #myhed{
     margin: 20px;
-}
+} */
 header.hero {
     background-image: url('مثقاب.png');
     color: rgb(13, 1, 1);
