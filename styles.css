@@ -10,6 +10,10 @@ body {
 /* #myhed{
     margin: 20px;
 } */
+.flexdis{
+    display: flex;
+    justify-content: space-between;
+}
 header.hero {
     background-image: url('مثقاب.png');
     color: rgb(13, 1, 1);
