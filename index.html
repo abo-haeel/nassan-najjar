@@ -265,7 +265,7 @@
             
                 if (currentTime >=9 && currentTime <= 12) {
                     message = ' صباح الخير!';
-                } else if (currentTime < 18) {
+                } else if (currentTime>12 && currentTime <= 18) {
                     message = ' مساء الخير!';
                 } else {
                     message = 'المحل مغلق!';
