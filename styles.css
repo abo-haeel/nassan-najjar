@@ -7,9 +7,9 @@ body {
 .classimg{
     padding-left: 30px;
 }
-/* #myhed{
-    margin: 20px;
-} */
+#myhed{
+    margin: 20px 5px;
+}
 .flexdis{
     display: flex;
     justify-content: space-between;
