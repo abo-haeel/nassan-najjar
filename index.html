@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <img id="myhed" src="asest/قارمة.jpg" alt="" width="380px">
+    <img id="myhed" src="assest/قارمة.jpg" alt="" width="380px">
 
     <header class="hero">
         <h1 class="bgc">أبو هائل للمحركات الكهربائية </h1>
@@ -64,7 +64,7 @@
             الأمثل والاستمرارية. التزامي بالدقة في العمل وتسليم المهام في الوقت المحدد يميزني، وأعمل باستمرار على تطوير
             مهاراتي لضمان تقديم أفضل النتائج في كل مشروع أشارك فيه
         </p><br>
-        <img id="profile" src="asest/me.png" alt="ابو هائل">
+        <img id="profile" src="assest/me.png" alt="ابو هائل">
     </section>
 
     <section id="services" class="services" dir="rtl">
@@ -82,10 +82,10 @@
         <h1>المعرض</h1>
         <br>
         <div class="gallery-grid">
-            <img class="classimg" src="asest/سنطرفيش.jpeg" alt="قبل وبعد" style="margin-right: 50px;">
-            <img class="classimg" src="asest/غسالة.jpg" alt="قبل وبعد" style="margin-right: 100px;"> <br>
-            <img class="classimg" src="asest/صاروخ.jpg" alt="صالون الحلاقة" style="margin-right: 50px;">
-            <img class="classimg" src="asest/مثقب.webp" alt="صالون الحلاقة" style="margin-right: 100px;">
+            <img class="classimg" src="assest/سنطرفيش.jpeg" alt="قبل وبعد" style="margin-right: 50px;">
+            <img class="classimg" src="assest/غسالة.jpg" alt="قبل وبعد" style="margin-right: 100px;"> <br>
+            <img class="classimg" src="assest/صاروخ.jpg" alt="صالون الحلاقة" style="margin-right: 50px;">
+            <img class="classimg" src="assest/مثقب.webp" alt="صالون الحلاقة" style="margin-right: 100px;">
         </div>
     </section>
 
@@ -97,7 +97,7 @@
 
             <div class="col-md-6 col-lg-4 m-4">
                 <div class="card" style="width: 100%;">
-                    <img src="asest/1.jpg" class="card-img-top" alt="...">
+                    <img src="assest/1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="flexdis">
                             <h1>السعر</h1>
@@ -124,7 +124,7 @@
 
             <div class="col-md-6 col-lg-4 m-4">
                 <div class="card" style="width: 100%;">
-                    <img src="asest/2.jpg" class="card-img-top" alt="...">
+                    <img src="assest/2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="card-body">
                             <div class="flexdis">
@@ -153,7 +153,7 @@
 
             <div class="col-md-6 col-lg-4 m-4">
                 <div class="card" style="width: 100%;">
-                    <img src="asest/3.jpg" class="card-img-top" alt="...">
+                    <img src="assest/3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <div class="flexdis">
                             <h1>السعر</h1>
@@ -176,6 +176,7 @@
                     </div>
                 </div>
             </div>
+            
         </div>
     </section>
 
@@ -208,21 +209,22 @@
         </section> -->
 
     <footer>
-        <p>جميع الحقوق محفوظة لدى محمد نعسان نجار © 2024</p>
+        <p>جميع الحقوق محفوظة لدى © 2024</p>
+        <!-- <p>جميع الحقوق محفوظة لدى محمد نعسان نجار © 2024</p> -->
     </footer>
 
     <script src="scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <!-- <script>
+    <script>
         window.onload = function () {
             const currentTime = new Date().getHours();
             let message;
 
-            if (currentTime >= 9 && currentTime <= 12) {
+            if (currentTime >= 9 && currentTime < 12) {
                 message = ' صباح الخير!';
-            } else if (currentTime > 12 && currentTime <= 18) {
+            } else if (currentTime >= 12 && currentTime <= 18) {
                 message = ' مساء الخير!';
             } else {
                 message = 'المحل مغلق!';
@@ -230,7 +232,7 @@
 
             alert(message + ' \n لا تنسى ذكر الله');
         };
-    </script> -->
+    </script>
 </body>
 
 </html>
