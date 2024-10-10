@@ -108,3 +108,20 @@ footer {
 #prgraph {
     text-align: justify;
 }
+.fleximg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fleximg > img{
+    width: 45%;
+}
+/* .gallery-grid > .gallery-grid2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.gallery-grid2 > img {
+    width: 30%;
+
+} */
